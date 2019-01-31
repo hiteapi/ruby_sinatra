@@ -1,1 +1,6 @@
-task(:default) { require_relative 'test/hello_world' }
+task default: %w[test]
+
+task :test do
+  ruby "test/hello_world.rb"
+end
+

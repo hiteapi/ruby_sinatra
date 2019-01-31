@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     mustermann (1.0.3)
+    power_assert (1.1.3)
     rack (2.0.6)
     rack-protection (2.0.5)
       rack
@@ -13,6 +14,8 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.5)
       tilt (~> 2.0)
+    test-unit (3.2.9)
+      power_assert
     tilt (2.0.9)
 
 PLATFORMS
@@ -22,6 +25,7 @@ DEPENDENCIES
   rack-test
   rake
   sinatra
+  test-unit
 
 BUNDLED WITH
    1.17.3
