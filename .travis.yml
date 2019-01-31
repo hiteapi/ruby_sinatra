@@ -1,0 +1,9 @@
+before_install:
+  - gem update --system
+  - gem --version
+  - gem install bundler
+  - git submodule update --remote test/fixtures
+language: ruby
+cache: bundler
+rvm:
+  - 2.6.1
