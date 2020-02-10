@@ -5,6 +5,6 @@ gem 'sinatra'
 
 group :test do
   gem 'rack-test'
-  gem 'rake'
+  gem "rack", ">= 2.0.8"
   gem 'test-unit'
 end
